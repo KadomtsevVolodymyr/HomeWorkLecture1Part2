@@ -38,12 +38,6 @@ describe('isPalindrome', function() {
   });
 
   test('should return true when text are palinrom', function() {
-    const result = isPalindrome('Don\'t nod.');
-
-    expect(result).toBe(true);
-  });
-
-  test('should return true when text are palinrom', function() {
     const result = isPalindrome('Able was I, ere I saw Elba');
 
     expect(result).toBe(true);

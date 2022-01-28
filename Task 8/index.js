@@ -1,10 +1,11 @@
 export function countOccurrences(text, letter) {
-  let counter = 0, newText = '';
+  let counter = 0;
+
+  text = text.toLowerCase();
 
   for (let i = 0; i < text.length; i++) {
-    newText += text[i].toLowerCase();
 
-    if (newText[i] === letter) {
+    if (text[i] === letter) {
       counter ++;
     }
   }
